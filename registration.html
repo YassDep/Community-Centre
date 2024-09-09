@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <script src="frontpage.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Circonstance Community Center</h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+                <ul class="nav-menu">
+                    <li><a href="frontpage.html#home">Home</a></li>
+                    <li><a href="frontpage.html#about">About Us</a></li>
+                    <li><a href="frontpage.html#programs">Programs</a></li>
+                    <li><a href="frontpage.html#events">Events</a></li>
+                    <li><a href="frontpage.html#achievements">Achievements</a></li>
+                    <li><a href="frontpage.html#news">News</a></li>
+                    <li><a href="frontpage.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="registration-container">
+        <div class="registration-form">
+            <h2>Join Our Community Activities</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="activity">Select Activity</label>
+                    <select id="activity" name="activity" required>
+                        <option value="arts">Arts & Crafts</option>
+                        <option value="sports">Sports & Fitness</option>
+                        <option value="education">Education & Workshops</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Community Center. All Rights Reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="frontpage.html#privacy-policy">Privacy Policy</a></li>
+                    <li><a href="frontpage.html#terms-of-service">Terms of Service</a></li>
+                    <li><a href="frontpage.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.facebook.com/groups/249580021880880" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="X.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="instagram.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
